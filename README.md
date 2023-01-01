@@ -6,7 +6,7 @@ This is a complete rewrite from the [project that inspired me](https://brandonsw
 A Teensy 3.1 board shows itself as a usb-midi device when plugged into a computer.  
 You can then use any midi-player (like winamp for example :D) to output notes to the piano.  
 The teensy then translates midi notes to solenoid compatible infos.  
-The solenoid [control boards](vikbez/PlayerPianoController/PCB) are chained together using 74HC595.  
+The solenoid [control boards](https://github.com/vikbez/PlayerPianoController/PCB) are chained together using 74HC595.  
 Solenoids are PWM-driven, with 2 periods:  
 - the first period for note volume (with a % corresponding to the volume %)  
 - the second period where pwm is reduced only for keeping the note pressed.  
