@@ -8,7 +8,7 @@ You can then use any midi-player (like winamp for example :D) to output notes to
 The teensy then translates midi notes to solenoid compatible infos.  
 The solenoid [control boards](https://github.com/vikbez/PlayerPianoController/tree/master/PCB) are chained together using 74HC595.  
 Solenoids are PWM-driven, with 2 periods:  
-- the first period for note volume (with a % corresponding to the volume %)  
+- the first period for note volume (with a PWM % corresponding to the volume %)  
 - the second period where pwm is reduced only for keeping the note pressed.  
   
 See the WIP-code for more infos !  
